@@ -1,0 +1,99 @@
+body{
+    background: url(/assets/images/bg.png);
+}
+.site{
+    /* Enlever les signes + qui étaient entre les mots de la font-family */
+    font-family: "Holtwood One SC", sans sérif;
+}
+.text-logo{
+    /* On remet la font-family car on va l'utiliser dans le système d'administration */ 
+    font-family: "Holtwood One SC", sans sérif;
+    color: #e7480f;
+    /* 2 droite, 2 bas */
+    text-shadow: 2px 2px #ffd301;
+    font-size: 50px;
+    /* 40 haut/bas, 0 droite/gauche */
+    padding: 40px 0px;
+    text-align: center;  
+}
+.text-logo .glyphicon{
+    /* On met les valeurs à 0 pour supprimer l'ombre */
+    text-shadow: 0px 0px #ffd301;
+    /* couleur jaune */
+    color: #ffd301;   
+}
+.nav{
+    margin-bottom: 40px;
+}
+.thumbnail img{
+    /* On peut mettre un background à l'image car c'est un format png */
+    background: #ffd301;
+}
+.price{
+    background: #5cb85c;
+    box-shadow: 0 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 1px rgba(0,0,0,0.2);
+    color: #fff;
+    text-shadow: 2px 2px #333;
+    position: absolute;
+    right: 6px;
+    top: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+/* On utilise la pseudo class before pour ajouter quelque chose sans passer par le html
+   Pour mettre un petit triangle au dessus de l'étiquette du prix */
+.price:before{
+    /* On met un contenu même vide pour que before fonctionne */ 
+    content: " ";
+    border: 4px solid transparent;
+    border-bottom: 4px solid #4a934a;
+    border-left: 4px solid #4a934a;
+    position: absolute;
+    right: 1px;
+    top:  -8px;
+}
+/* Le h4 enfant direct > de la class caption */
+.caption > h4{
+    color: #e7480f;
+    font-size: 18px;
+}
+/* On met un background sur le a de notre système nav-pills fonction de bootstrap */
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background: #e7480f; 
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    color: #e7480f;
+    background: #eee;    
+}
+.nav>li>a{
+    color: #eee;
+    font-size: 18px;
+    text-shadow: 2px 2px #333;    
+}
+.btn-order{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e7480f;
+    text-decoration: none;
+    text-shadow: 2px 2px #333;
+}
+.btn-order:hover, .btn-order:focus{
+    color: #fff;
+    background-color: #c13c0d;
+}
+
+/* ADMIN */
+.admin{
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+.help-inline{
+    color: red;
+}
+
