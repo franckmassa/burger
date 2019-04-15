@@ -6,7 +6,7 @@ class Database {
 // On utilise static car on utilise la classe directement et non une instance de class
     private static $dbHost = 'localhost';
     private static $dbName = 'restaurant';
-    private static $dbUser = 'root';
+    private static $dbUser = '';
     private static $dbUserPassword = '';
     // On déclare la variable $connexion pour stocker la connexion
     private static $connection = null;
