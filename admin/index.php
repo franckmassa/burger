@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="/assets/css/style.css">
         <title>Restaurant</title>
     </head>
-
     <body>
         <h1 class="text-logo"><span class="glyphicon glyphicon-cutlery"></span> Burger code <span class="glyphicon glyphicon-cutlery"></span></h1>
         <div class="container admin">
@@ -60,18 +59,6 @@
                 </table>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="assets/js/script.js"></script>
